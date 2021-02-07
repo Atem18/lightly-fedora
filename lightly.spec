@@ -1,11 +1,11 @@
 Name:           Lightly 
-Version:        git 
+Version:        0.4 
 Release:        1
 Summary:        Visually modern and minimalistic plasma style
 Group:          System/GUI/KDE
 License:        GPL-2.0+
 Url:            https://github.com/Luwx/Lightly
-Source0:        %{name}-%{version}.tar.gz
+Source0:        %{url}/archive/v%{version}.tar.gz
 BuildRequires:  cmake(KF5Plasma) 
 BuildRequires:  cmake(KF5DBusAddons)
 BuildRequires:  cmake(KF5ConfigWidgets)
